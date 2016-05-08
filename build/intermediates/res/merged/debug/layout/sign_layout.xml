@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+	<TableLayout
+		android:id="@+id/tableLayout1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="2dp"
+		android:stretchColumns="1" >
+
+		<TableRow
+			android:id="@+id/tableRow1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp" >
+
+			<TextView
+				android:id="@+id/bookuser"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/bookuser" />
+
+			<EditText
+				android:id="@+id/userTxt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/tableRow2"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp" >
+
+			<TextView
+				android:id="@+id/phone"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/phone" />
+
+			<EditText
+				android:id="@+id/phoneTxt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:inputType="number" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/tableRow3"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp" >
+
+			<TextView
+				android:id="@+id/mail"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/mail" />
+
+			<EditText
+				android:id="@+id/mailTxt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:inputType="textEmailAddress" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/tableRow4"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp" >
+
+			<TextView
+				android:id="@+id/pwd"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/pwd" />
+
+			<EditText
+				android:id="@+id/pwdTxt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:inputType="textPassword" />
+		</TableRow>
+
+		<TableRow
+			android:id="@+id/tableRow5"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="5dp" >
+
+			<TextView
+				android:id="@+id/confirmpwd"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="@string/conformpwd" />
+
+			<EditText
+				android:id="@+id/confirmTxt"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:inputType="textPassword" />
+		</TableRow>
+	</TableLayout>
+
+	<Button
+		android:id="@+id/ques_first"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerHorizontal="true"
+		android:layout_marginTop="220dp"
+		android:text="@string/sign" />
+
+</RelativeLayout>

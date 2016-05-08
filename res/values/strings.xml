@@ -1,0 +1,60 @@
+<resources>
+
+	<string name="app_name">sapientia</string>
+
+	<string name="login">登 录</string>
+
+	<string name="sign">注 册</string>
+
+	<string name="login_user">用户名/手机号/邮箱</string>
+	
+	<string name="password">密码</string>
+	
+	<string name="flesh">新用户</string>
+	
+	<string name="question">问题？</string>
+	
+	<string name="bookuser">用 户 名 ：</string>
+	
+	<string name="pwd">密      码：</string>
+	
+	<string name="conformpwd">密码确认：</string>
+	
+	<string name="phone">手机号码：</string>
+	
+	<string name="mail">邮箱地址：</string>
+	
+	<string name="autologin">自动登录</string>
+	
+	<string name="autoRem">记住用户</string>
+	
+	<string name="book">书库</string>
+	
+	<string name="hook">书圈</string>
+	
+	<string name="search">搜索</string>
+	
+	<string name="quesFisrt">找回密码</string>
+	
+	<string name="quesSecond">联系我们</string>
+	
+	<string name="quesCancel">取消</string>
+	
+	<string name="logout">注 销</string>
+	
+	<string name="Cancel">注销账户</string>
+	
+	<string name="setting">设置</string>
+	
+	<string name="send_hook">发布书圈</string>
+	
+	<string name="upload">上传书籍</string>
+	
+	<string name="stateTxt">发布书圈动态</string>
+	
+	<string name="addbook">添加书籍</string>
+	
+	<string name="addPic">添加图片</string>
+	
+	<string name="stateHint">点击输入文字</string>
+</resources>

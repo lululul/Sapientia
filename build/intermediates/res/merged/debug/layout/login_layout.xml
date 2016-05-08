@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent" >
+
+    <EditText
+    	android:id="@+id/user"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginTop="0dp"
+    	android:ems="10"
+    	android:hint="@string/login_user" >
+
+    	<requestFocus />
+    </EditText>
+
+    <EditText
+    	android:id="@+id/password"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@+id/user"
+    	android:password="true"
+    	android:layout_centerHorizontal="true"
+    	android:ems="10"
+    	android:hint="@string/password" />
+
+    <TextView
+    	android:id="@+id/question"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentLeft="true"
+    	android:layout_marginBottom="20dp"
+    	android:layout_marginLeft="20dp"
+    	android:text="@string/question" />
+
+    <TextView
+    	android:id="@+id/flesh"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginBottom="20dp"
+    	android:layout_marginRight="20dp"
+    	android:text="@string/flesh" />
+
+    <Button
+    	android:id="@+id/ques_first"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentLeft="true"
+    	android:layout_below="@+id/password"
+    	android:layout_marginTop="40dp"
+    	android:text="@string/login" />
+
+    <CheckBox
+    	android:id="@+id/autologin"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignRight="@+id/flesh"
+    	android:layout_below="@+id/password"
+    	android:layout_marginLeft="20dp"
+    	android:text="@string/autologin" />
+
+    <CheckBox
+    	android:id="@+id/autoRem"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_alignBaseline="@+id/autologin"
+    	android:layout_alignBottom="@+id/autologin"
+    	android:layout_marginRight="20dp"
+    	android:text="@string/autoRem" />
+    
+</RelativeLayout>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.example.sapientia.style.CircleImageView
+        android:id="@+id/send_hook"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/send" />
+
+    <TextView
+        android:id="@+id/send_booktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/send_hook"
+        android:layout_centerHorizontal="true"
+        android:text="@string/send_hook"
+        android:textSize="10sp" />
+
+    <com.example.sapientia.style.CircleImageView
+        android:id="@+id/upload_books"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignLeft="@+id/send_hook"
+        android:layout_alignTop="@+id/send_booktxt"
+        android:src="@drawable/upload" />
+
+    <TextView
+        android:id="@+id/upload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/send_booktxt"
+        android:layout_below="@+id/upload_books"
+        android:text="@string/upload"
+        android:textSize="10sp" />
+
+    <ImageView
+        android:id="@+id/toggle_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/frameMenu"
+        android:layout_centerInParent="true"
+        android:src="@drawable/skin_tabbar_btn" />
+
+    <ImageView
+        android:id="@+id/plus_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/upload"
+        android:layout_alignParentBottom="true"
+        android:layout_alignTop="@+id/toggle_btn2"
+        android:src="@drawable/skin_tabbar_icon_click" />
+
+</RelativeLayout>
