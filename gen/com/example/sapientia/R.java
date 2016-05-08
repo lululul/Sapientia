@@ -197,6 +197,7 @@ containing a value of this type.
         public static final int send_window=0x7f03000d;
         public static final int setting_layout=0x7f03000e;
         public static final int sign_layout=0x7f03000f;
+        public static final int upload_layout=0x7f030010;
     }
     public static final class menu {
         public static final int main=0x7f090000;

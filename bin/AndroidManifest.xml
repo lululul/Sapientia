@@ -58,6 +58,10 @@
 		<activity
 			android:name="com.example.sapientia.ui.sendStateActivity"
 			android:launchMode="singleTask" />
+		<activity
+			android:name="com.example.sapientia.ui.uploadActivity"
+			android:launchMode="singleTask"
+			android:windowSoftInputMode="adjustPan|stateHidden" />
 	</application>
 
 </manifest>

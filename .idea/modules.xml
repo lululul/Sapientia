@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sapientia.iml" filepath="$PROJECT_DIR$/sapientia.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Sapientia.iml" filepath="$PROJECT_DIR$/Sapientia.iml" />
     </modules>
   </component>
 </project>
